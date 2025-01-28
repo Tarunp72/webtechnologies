@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+body {
+  background-color: #000000;
+}
+
+#n1 {
+  background-color: #000000;
+  height: 70px;
+  display: flex;
+  align-items: center;
+
+}
+
+#n1p1 {
+  color: red;
+  font-size: 30px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+#bikesym {
+  size: 100px;
+  padding-left: 15px;
+
+}
+
+#prod {
+  color: red;
+  padding-left: 550px;
+  font-size: large;
+  font-weight: bold;
+}
+
+#log,
+#serv,
+#gall {
+  color: red;
+  padding-left: 50px;
+  font-size: large;
+  font-weight: bold;
+}
+
+#logsym {
+  padding-left: 20px;
+}
+
+.imgs-cont img {
+  width: 100%;
+  height: 600px;
+  display: inline-flex;
+}
+
+.sec2 {
+  background-color: black;
+  height: 400px;
+  border-bottom: 5px solid red;
+
+  margin: 20px;
+
+
+}
+
+.sec2 .sec2-img-cont {
+  display: flex;
+}
+
+.sec2 h2 {
+  color: red;
+
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 25px;
+
+}
+
+
+
+#sec2-p1 {
+  border-top: 5px solid red;
+  padding-top: 30px;
+  padding-left: 200px;
+  font-size: 40px;
+  color: whitesmoke;
+
+}
+
+#sec2-p2 p {
+  color: red;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.sec3 {
+  height: 700px;
+  color: grey;
+
+}
+
+.sec3 h2 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.sec3-cont .spec1 {
+  margin-left: 200px;
+  margin-top: 70px;
+  display: flex;
+}
+
+.spec2 {
+  display: flex;
+  margin-left: 970px;
+  margin-top: -80px;
+}
+
+.spec3 {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+.spec4 {
+  display: flex;
+  margin-left: 970px;
+  margin-top: -80px;
+}
+
+.spec5 {
+  display: flex;
+  margin-left: 970px;
+  margin-top: 90px;
+}
+
+.spec6 {
+  display: flex;
+  margin-left: 200px;
+  margin-top: -90px;
+}
+
+.sec3 .sec3-cont img {
+  width: 40px;
+  height: 40px;
+}
+
+.sec3-cont .spech {
+  padding-left: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+
+
+.spec1 .specp {
+  margin-left: -360px;
+  margin-top: 50px;
+  position: relative;
+  font-size: 30px;
+}
+
+.spec2 .specp {
+  margin-left: -250px;
+  margin-top: 50px;
+  position: relative;
+  font-size: 30px;
+}
+
+.spec3 .specp {
+  margin-left: -270px;
+  margin-top: 50px;
+  position: relative;
+  font-size: 30px;
+}
+
+.spec4 .specp {
+  margin-left: -300px;
+  margin-top: 50px;
+  position: relative;
+  font-size: 30px;
+}
+
+.spec5 .specp {
+  margin-left: -290px;
+  margin-top: 50px;
+  position: relative;
+  font-size: 30px;
+}
+
+.spec6 .specp {
+  margin-left: -185px;
+  margin-top: 50px;
+  position: relative;
+  font-size: 30px;
+}
+
+.purch {
+  display: flex;
+  height: 900px;
+}
+
+.purc-cont .img-hold img {
+  width: 1518px
+}
+
+.purc-opt {
+  display: flex;
+  margin-left: 0px;
+}
+
+.purc-opt img {
+  height: 300px;
+}
+
+.purc-opt .tr {
+  width: 320px;
+  height: 50px;
+  background-color: whitesmoke;
+  padding-top: 20px;
+  margin-top: 60px;
+  margin-left: 50px;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.buy {
+  margin-left: -260px;
+  margin-top: 80px;
+}
+
+.purc-opt .bo {
+  width: 170px;
+  height: 45px;
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-top: 280px;
+  margin-left: 300px;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.exs p {
+  color: whitesmoke;
+  margin-top: 50px;
+  margin-left: -690px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.dealer {
+  margin-top: 643px;
+  margin-left: -730PX;
+  background-color: red;
+  height: 100px;
+  width: 600px;
+  text-align: center;
+}
+
+.purc-cont {
+  display: flex;
+}
+
+.dealer .h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+.dealer .p {
+  font-size: 20px;
+}
+
+.vl {
+  width: 10px;
+  height: 200px;
+  background-color: whitesmoke;
+  border: #db222a;
+  margin-top: -180px;
+  margin-left: 720px;
+}
+
+.call {
+  margin-top: 60px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.gallery {
+  height: auto;
+  margin: 10px;
+  width: auto;
+  font-size: 40px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.gall-img {
+  display: inline-block;
+  border: 10px solid grey;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.gall-img img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+
+
+
+.footer {
+  height: 110px;
+  background-color: grey;
+  align-content: center;
+}
+
+.footer .foot-cont {
+  display: flex;
+  margin-left: 540px;
+
+}
+
+.foot-cont .contact img {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+
+.foot-cont .contact {
+  width: 180px;
+  border-right: 4px solid black;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.contact .cont {
+  font-weight: bold;
+}
+
+.email {
+  width: 380px;
+
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+
+}
+
+.email .emailimg {
+  width: 20px;
+  display: flex;
+  font-size: 20px;
+}
+
+.email .emailimg img {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+
+
+.emailimg .emailadd {
+  margin-left: 10px;
+  margin-top: 8px;
+
+}
+
+.email .head {
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 40px;
+}
